@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "...e-tablet: 768px": expected "{", was ";"
+        on line 5 of styles.scss
+
+1: // Variables for Device Widths //
+2: https://stackoverflow.com/questions/2719668/an-html5-canvas-element-in-the-background-of-my-page
+3: 
+4: 
+5: $small-device-tablet: 768px;
+6: $medium-device-laptop: 980px;
+7: $large-device-desktop: 1200px;
+8: 
+9: 
+10: html {
+
+Backtrace:
+styles.scss:5
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...e-tablet: 768px\": expected \"{\", was \";\"\A         on line 5 of styles.scss\A \A 1: // Variables for Device Widths //\A 2: https://stackoverflow.com/questions/2719668/an-html5-canvas-element-in-the-background-of-my-page\A 3: \A 4: \A 5: $small-device-tablet: 768px;\A 6: $medium-device-laptop: 980px;\A 7: $large-device-desktop: 1200px;\A 8: \A 9: \A 10: html {"; }

@@ -1,3 +1,5 @@
 .env
 .git
 .DS_Store
+public/styles/styles.css.map
+public/styles/.sass-cache

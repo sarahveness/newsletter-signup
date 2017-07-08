@@ -1,0 +1,54 @@
+// Variables for Device Widths //
+https://stackoverflow.com/questions/2719668/an-html5-canvas-element-in-the-background-of-my-page
+
+
+$small-device-tablet: 768px;
+$medium-device-laptop: 980px;
+$large-device-desktop: 1200px;
+
+
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: #2e2e2e;
+  text-align: center;
+
+}
+#canvas {
+    position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+      }
+h1 {
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Bellfaire', serif;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  @media only screen and (min-width: $medium-device-laptop) {
+    width: 42rem;
+  }
+}
+
+.inner {
+  padding: 2rem;
+}
+
+.quote {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
