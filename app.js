@@ -30,7 +30,7 @@ function addEmailToMailchimp(email) {
         headers: {
             'postman-token': process.env.POSTMAN_TOKEN,
             'cache-control': 'no-cache',
-            authorization: 'Basic YW55c3RyaW5nOjRlZTJmY2YxMDZiMzAxZjUzMjA0NjM0MjJmZGEzMGQ2LXVzMTY='
+            authorization: ''
         },
         body: {
             email_address: email,
